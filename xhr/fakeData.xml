@@ -1,0 +1,11 @@
+
+<fakeCharacters>
+	<fakeChar>
+		<name>Bob McXMLTest</name>,
+		<glasses>Yes</glasses>,
+		<sex>Male</sex>,
+		<birthdate>2010-02-05</birthdate>,
+		<race>Reptilian</race>,
+		<height>7</height>
+	</fakeChar>
+</fakeCharacters>

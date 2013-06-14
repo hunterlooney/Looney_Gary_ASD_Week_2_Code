@@ -3,6 +3,35 @@
 //Add Character Java
 //Term 1306
 
+
+
+
+	$('#ajax').on('pageinit', function() {
+		
+		$('#ajaxPage').on("pageinit", function() {
+		// Load JSON data
+		$.ajax({
+			url: "xhr/fakeJsonData.json",
+			type: "GET",
+			dataType: "json",
+		});
+
+		// Load XML data
+		$.ajax({
+			url: "xhr/fakeData.xml",
+			type: "GET",
+			dataType: "xml",
+		});
+
+		// Load CSV data
+		$.ajax({
+			url: "xhr/fakeData.csv",
+			type: "GET",
+			dataType: "text",
+		});
+		
+	});	
+
 	var cname = document.getElementById("cname");
 	var sex = document.getElementById("sex");
 	var birthdate = document.getElementById("birthdate");
